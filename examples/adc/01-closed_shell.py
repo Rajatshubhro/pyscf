@@ -11,7 +11,7 @@ r = 1.098
 mol.atom = [
     ['N', ( 0., 0.    , -r/2   )],
     ['N', ( 0., 0.    ,  r/2)],]
-mol.basis = {'N':'aug-cc-pvdz'}
+mol.basis = {'N':'cc-pvdz'}
 mol.build()
 
 mf = scf.RHF(mol)
